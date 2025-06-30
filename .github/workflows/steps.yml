@@ -1,0 +1,16 @@
+name: Step 실습
+
+on: push
+
+jobs:
+  step-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1
+        run: echo "✅ Step 1 시작"
+
+      - name: Step 2
+        run: echo "🟡 Step 2 실행 중"
+
+      - name: Step 3
+        run: echo "🎉 Step 3 완료!"
